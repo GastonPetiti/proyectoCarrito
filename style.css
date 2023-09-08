@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fraunces', serif;
+    font-family: 'Kanit', sans-serif;
+}
+body{
+    background-color: #503c2d;
+}
+h1{
+    text-align: center;
+}
+section{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.containerInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_product{
+    background-color: #8d7163;
+    height: 20rem;
+    width: 15rem;
+    padding: 1rem 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    color: beige;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #f0ceb2;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.carrito{
+    width: 2rem;
+    height: auto;
+}
+.nombreTienda{
+    margin: 0.5rem 0 0.5rem 1rem;
+}
+.img_container{
+    width: 10rem;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#btn-container{
+    width: 100%;
+    height: 2.5rem;
+}
+button{
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    background-color: #BF9270;
+    border-radius: 0 0 10px 10px;
+    color: #492507;
+}
+.tituloCarrito{
+    text-align: center;
+}
+
+
+.infoBotincarrito{
+    margin: 1rem;
+}
+.precioBotinCarrtio{
+    margin: 1rem;
+}
+.botonBorrar{
+    background-color: #ff0000;
+    margin-top: 0.5rem;
+}
+input{
+    height: 2rem;
+    width: 2rem;
+    margin-top: 0.5rem;
+}
+.confirmarCompra{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    width: 28rem;
+}
+.botonComprar{
+    background-color: #00ff6a;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    text-decoration: none;
+}
+.carrito1{
+width: 30rem;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: auto;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    background-color: #02010096;
+}
+
+#cart__container{
+    width: 3rem;
+    height: 2.5rem;
+}
+
+#cart__buy{
+    height: 100%;
+    width: 100%;
+    border: 1px solid #e9d3c2;
+    border-radius: 5px;
+}
+
+#cart__svg{
+    height: 100%;
+    width: 100%;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    width: 70%;
+}
+
+#sections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #e9d3c2;
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    width: 15%;
+    height: 2rem;
+    border: 2px solid #e9d3c2;
+    border-radius: 10px;
+    background-color: #503c2dbd;
+}
+
+#banner__container{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+#banner{
+    background-image: url("img/bluePhantom.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #e9d3c2;
+    font-size: xx-large;
+}
