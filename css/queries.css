@@ -1,0 +1,54 @@
+@media screen and (max-width: 660px){
+    .menu-btn,
+    .close-menu{
+        display: flex;
+        justify-content: start;
+        cursor: pointer;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 5px;
+        background-color: #1c1c1cd5;
+        border: 2px solid #05504b;
+    }
+
+    .nav{
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        gap: 1rem;
+        position: absolute;
+        background-color: #000000c2;
+        padding: 1rem;
+        box-shadow: 0 0 0 100vmax rgba(0,0,0, .5);
+    }
+
+    .nav.visible{
+        opacity: 1;
+        visibility: visible;
+        justify-content: flex-start;
+        align-items: start;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 10rem;
+        height: 100vh;
+    }
+
+    header{
+        justify-content: space-between;
+    }
+
+    #sections{
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        width: auto;
+    }
+
+    li{
+        width: 100%;
+    }
+}
