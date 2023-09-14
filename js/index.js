@@ -35,7 +35,7 @@ const addToCart = (e)=>{
 }
 
 const openingMenu = () =>{
-    nav.classList.toggle("visible")
+    nav.classList.add("visible")
 }
 
 const closingMenu = () =>{

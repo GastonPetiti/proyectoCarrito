@@ -2,7 +2,8 @@
     .menu-btn,
     .close-menu{
         display: flex;
-        justify-content: start;
+        justify-content: center;
+        align-items: center;
         cursor: pointer;
         width: 2rem;
         height: 2rem;
