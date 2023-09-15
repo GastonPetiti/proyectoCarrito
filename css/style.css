@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Fraunces', serif;
     font-family: 'Kanit', sans-serif;
 }
 
@@ -141,7 +140,7 @@ header{
     justify-content: space-between;
     align-items: center;
     height: auto;
-    width: 70%;
+    width: 40rem;
 }
 
 #sections{
