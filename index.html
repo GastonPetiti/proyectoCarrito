@@ -32,15 +32,17 @@
         <ul id="sections">
           <li><a href="#banner__container">Inicio </a></li>
           <li><a href="#about__us"> Sobre Nosotros </a></li>
-          <li><a href="#shop"> Productos </a></li>
+          <li><a href="#shop-container"> Productos </a></li>
           <li><a href="#contact"> Contacto </a></li>
         </ul>
       </nav>
 
-      <div id="cart__container">
+      <div id="cart__container" class="cart-container">
         <a href="" id="cart__buy">
-          <div id="cart__count"></div>
-          <img src="img/ShoppingCart.svg" alt="carrito" id="cart__svg">
+          <div i="cart__count"></div>
+          <div class="cart-img-container">
+            <img src="img/ShoppingCart.svg" alt="carrito" id="cart__svg">
+          </div>
         </a>
       </div>
     </header>
@@ -52,15 +54,19 @@
         </div>
       </section>
 
-      <section id="shop">
+      <section id="shop-container">
         <h2>Botines</h2>
         <div id="categoriesContainer">
-          <button class="category">Todos</button>
-          <button class="category" data-category="Nike"> Nike</button>
-          <button class="category" data-category="Puma">Puma</button>
-          <button class="category" data-category="Adidas">Adidas</button>
-          <button class="category" data-category="New Balance">New Balance</button>
+          <button class="category selected" id="allBotines">Todos</button>
+          <button class="category" id="Nike"> Nike</button>
+          <button class="category" id="Puma">Puma</button>
+          <button class="category" id="Adidas">Adidas</button>
+          <button class="category" id="New Balance">New Balance</button>
         </div>
+        <div id="shop">
+
+        </div>
+
       </section>
 
       <section id="about__us"></section>

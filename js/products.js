@@ -79,23 +79,27 @@ const botines = [
 ];
 
 //creo el template de los productos
-const botinesTemplates = botines.map((botin)=>{
-  const {marca, precio, modelo, img, id} = botin
-  shop.innerHTML+= `
-  <div class="card_product">
-  <div class="img_container">
-      <img src="${img}" alt="botin ${marca} ${modelo}">
-  </div>
-    <h3 class="infoBotin">${marca} ${modelo}</h3>
-    <p class="precioBotin">$${precio}</p>
-  <div id="btn-container">
-    <button type="submit" class="btn-carrito"
-    botin-id= ${id}
-    botin-marca${marca}
-    botin-modelo= ${modelo}
-    botin-precio=${precio}
-    botin.img=${img}
-    >Agregar al Carrito</button>
-  </div>
-</div>`
-})
+const botinesTemplates = (botinesElegidos) => {
+  shop.innerHTML = "";
+
+  botinesElegidos.map((botin) => {
+    const { marca, precio, modelo, img, id } = botin;
+    shop.innerHTML += `
+    <div class="card_product">
+    <div class="img_container">
+        <img src="${img}" alt="botin ${marca} ${modelo}">
+    </div>
+      <h3 class="infoBotin">${marca} ${modelo}</h3>
+      <p class="precioBotin">$${precio}</p>
+    <div id="btn-container">
+      <button type="submit" class="btn-carrito"
+      botin-id= ${id}
+      botin-marca${marca}
+      botin-modelo= ${modelo}
+      botin-precio=${precio}
+      botin.img=${img}
+      >Agregar al Carrito</button>
+    </div>
+  </div>`;
+  });
+};
